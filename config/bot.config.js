@@ -8,7 +8,7 @@ const prefix = configuredPrefix === undefined || configuredPrefix === "" ? "." :
 });
 
 export default Object.freeze({
-  name: String(process.env.BOT_NAME || "TROY").trim() || "TROY",
+  name: String(process.env.BOT_NAME || "TROY🪖").trim() || "TROY🪖",
   version: String(process.env.BOT_VERSION || "1.0.0").trim() || "1.0.0",
   prefix,
   ownerName: String(process.env.OWNER_NAME || "Peter").trim() || "Peter",
